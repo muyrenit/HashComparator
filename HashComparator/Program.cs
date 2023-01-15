@@ -38,7 +38,7 @@ namespace HashComparator
                 Console.WriteLine(GetMD5(args[0]));
             } else
             {
-                Console.WriteLine("check hashes -> hashcomparator.exe <fileorhash> <fileorhash>\nmd5 generate -> program.exe <text>");
+                Console.WriteLine("check hashes -> hashcomparator.exe <file|hash|text> <file|hash|text>\nmd5 generate -> hashcomparator.exe <text>");
             }
         }
         static string GetMD5(string text)
@@ -52,7 +52,13 @@ namespace HashComparator
                 }
                 else
                 {
-                    return BitConverter.ToString(md5.ComputeHash(Encoding.Default.GetBytes(File.ReadAllText(text)))).Replace("-", "").ToLower();
+                    if (File.Exists(text))
+                    {
+                        return BitConverter.ToString(md5.ComputeHash(Encoding.Default.GetBytes(File.ReadAllText(text)))).Replace("-", "").ToLower();
+                    } else
+                    {
+                        return BitConverter.ToString(md5.ComputeHash(Encoding.Default.GetBytes(text))).Replace("-", "").ToLower();
+                    }                    
                 }                
             }                       
         }
