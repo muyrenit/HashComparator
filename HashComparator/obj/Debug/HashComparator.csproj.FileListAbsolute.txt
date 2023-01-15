@@ -1,0 +1,8 @@
+C:\Users\HB\source\repos\HashComparator\HashComparator\bin\Debug\HashComparator.exe.config
+C:\Users\HB\source\repos\HashComparator\HashComparator\bin\Debug\HashComparator.exe
+C:\Users\HB\source\repos\HashComparator\HashComparator\bin\Debug\HashComparator.pdb
+C:\Users\HB\source\repos\HashComparator\HashComparator\obj\Debug\HashComparator.csproj.AssemblyReference.cache
+C:\Users\HB\source\repos\HashComparator\HashComparator\obj\Debug\HashComparator.csproj.SuggestedBindingRedirects.cache
+C:\Users\HB\source\repos\HashComparator\HashComparator\obj\Debug\HashComparator.csproj.CoreCompileInputs.cache
+C:\Users\HB\source\repos\HashComparator\HashComparator\obj\Debug\HashComparator.exe
+C:\Users\HB\source\repos\HashComparator\HashComparator\obj\Debug\HashComparator.pdb
