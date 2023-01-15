@@ -38,7 +38,7 @@ namespace HashComparator
                 Console.WriteLine(GetMD5(args[0]));
             } else
             {
-                Console.WriteLine("check hashes -> hashcomparator.exe <file|hash|text> <file|hash|text>\nmd5 generate -> hashcomparator.exe <text>");
+                Console.WriteLine("check hashes -> hashcomparator.exe <file|hash|text> <file|hash|text>\md5 generate -> hashcomparator.exe <text>");
             }
         }
         static string GetMD5(string text)
